@@ -1,0 +1,265 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, white, lightgray, darkgray, grey);
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.bar {
+  width: 100px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bar li {
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 70px;
+}
+
+.bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.bar li:hover {
+  background: linear-gradient(to right, cyan, blue);
+}
+
+.text_home{
+  position: absolute;
+  top: 240px;
+  left: 450px;
+  font-size: 13px;
+
+
+}
+
+.lebenslauf-img {
+  position: absolute;
+  top: 200px;
+  left: 850px;
+
+}
+
+.title_about {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  font-size: 15px;
+}
+
+.text_about {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  font-size: 12;
+  font-style: italic;
+  font-weight: 300;
+  white-space: normal;
+  word-wrap: break-word;
+  width: 100%;
+  text-align: justify;
+
+}
+
+.spotify_ramon {
+  position: absolute;
+  height: 70vh;
+  top: 150px;
+  left: 850px;
+
+}
+
+.song_title_worthsomething a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 270px;
+  left: 422px;
+  font-size: 15px;
+}
+
+.worthsomething-img {
+  position:absolute;
+  top: 110px;
+  left: 400px;
+  width: 150px;
+  height: auto;
+
+}
+
+.song_title_viciodefunk a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 270px;
+  left: 680px;
+  font-size: 15px;
+}
+
+.viciodefunk-img  {
+  position:absolute;
+  top: 110px;
+  left: 650px;
+  width: 150px;
+  height: auto;
+
+}
+
+.song_title_jae a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 270px;
+  left: 950px;
+  font-size: 15px;
+}
+
+.jae-img  {
+  position:absolute;
+  top: 110px;
+  left: 900px;
+  width: 150px;
+  height: auto;
+
+}
+
+.song_title_slidedaaura a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 510px;
+  left: 435px;
+  font-size: 15px;
+}
+
+.slidedaaura-img  {
+  position:absolute;
+  top: 350px;
+  left: 400px;
+  width: 150px;
+  height: auto;
+
+}
+
+.song_title_funkomania a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 510px;
+  left: 690px;
+  font-size: 15px;
+}
+
+.funkomania-img  {
+  position:absolute;
+  top: 350px;
+  left: 650px;
+  width: 150px;
+  height: auto;
+
+}
+
+.song_title_silent_desolation a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 510px;
+  left: 930px;
+  font-size: 15px;
+}
+
+.silent_desolation-img  {
+  position:absolute;
+  top: 350px;
+  left: 900px;
+  width: 150px;
+  height: auto;
+
+}
+
+.all_music_titles a {
+  font-size: 13px;
+  font-weight: normal;
+
+}
+
+.text_contact_mail a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 250px;
+  left: 350px;
+  font-size: 22;
+  font-weight: 300;
+  white-space: normal;
+  word-wrap: break-word;
+  width: 100%;
+  text-align: justify;
+
+}
+
+.text_contact_phone a {
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 250px;
+  left: 900px;
+  font-size: 22;
+  font-weight: 300;
+  white-space: normal;
+  word-wrap: break-word;
+  width: 100%;
+  text-align: justify;
+
+}
+
+.phone-img  {
+  position:absolute;
+  top: 285px;
+  left: 935px;
+  width: 50px;
+  height: auto;
+
+}
+
+.mail-img  {
+  position:absolute;
+  top: 285px;
+  left: 400px;
+  width: 50px;
+  height: auto;
+}
+
+.text_contact_lebenslauf a{
+  position: absolute;
+  text-decoration: none;
+  color: inherit;
+  top: 400px;
+  left: 630px;
+  width: 50px;
+  font-size: 22;
+  font-weight: 300;
+  white-space: normal;
+  word-wrap: break-word;
+  width: 100%;
+  text-align: justify;
+
+
+}
